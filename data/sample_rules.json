@@ -1,0 +1,38 @@
+{
+  "rules": [
+    {
+      "id": "R01",
+      "type": "required_columns",
+      "columns": ["id", "name", "email", "age", "salary"],
+      "description": "Ensure core columns are present in dataset"
+    },
+    {
+      "id": "R02",
+      "type": "not_null",
+      "column": "id",
+      "description": "Primary key 'id' must not contain null values"
+    },
+    {
+      "id": "R03",
+      "type": "range",
+      "column": "age",
+      "min": 0,
+      "max": 120,
+      "description": "Age must be valid human range between 0 and 120"
+    },
+    {
+      "id": "R04",
+      "type": "allowed_values",
+      "column": "country",
+      "values": ["USA", "UK", "Canada"],
+      "description": "Country must be one of allowed regions (USA, UK, Canada)"
+    },
+    {
+      "id": "R05",
+      "type": "regex",
+      "column": "email",
+      "pattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$",
+      "description": "Email must conform to standard RFC email pattern"
+    }
+  ]
+}

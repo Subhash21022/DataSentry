@@ -1,0 +1,21 @@
+id,name,email,age,salary,country,signup_date
+1,Alice Johnson,alice@example.com,28,65000,USA,2023-01-15
+2,Bob Smith,bob.smith@company.org,34,82000,USA,2022-11-20
+3,Charlie Brown,invalid-email,45,115000,Canada,2021-06-10
+4,Diana Prince,diana@wonder.io,29,71000,UK,2023-03-22
+5,Evan Wright,,52,140000,USA,2020-09-01
+6,Fiona Gallagher,fiona@shameless.tv,22,32000,USA,2023-08-14
+7,George Clark,george@clark.co,19,950000,UK,2024-01-05
+8,Hannah Abbott,hannah@hogwarts.edu,-5,54000,UK,2022-04-18
+9,Ian Malcolm,ian@chaos.net,48,130000,USA,2019-12-30
+10,Julia Roberts,julia@pretty.org,38,92000,Canada,2021-08-11
+11,Kevin Bacon,kevin@degrees.com,65,160000,USA,2018-05-25
+12,Laura Croft,laura@tomb.com,31,88000,UK,2022-10-02
+13,Michael Scott,michael@dunder.com,44,75000,USA,2020-02-14
+14,Michael Scott,michael@dunder.com,44,75000,USA,2020-02-14
+15,Nancy Wheeler,nancy@hawkins.org,21,,USA,2023-11-09
+16,Oscar Martinez,oscar@dunder.com,39,81000,USA,2021-03-17
+17,Pam Beesly,pam@dunder.com,30,45000,USA,2022-07-29
+18,Quinn Fabray,quinn@glee.club,20,28000,Canada,2024-02-01
+19,Ryan Howard,ryan@temp.com,27,52000,USA,2023-05-19
+20,Suspicious Bot,bot@spam,18,1200000,Nowhere,2024-02-28
